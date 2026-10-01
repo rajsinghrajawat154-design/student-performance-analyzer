@@ -1,4 +1,4 @@
-"""Generates a realistic *synthetic* student dataset (with messy values) for the project."""
+"""Generates a realistic *synthetic* student dataset (with messy values)."""
 import numpy as np
 import pandas as pd
 
