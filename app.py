@@ -29,11 +29,11 @@ def get_model(df):
 df, info = get_data()
 model, metrics, n_train, n_test = get_model(df)
 
-st.title("🎓 Student Performance Analyzer & Score Predictor")
+st.title("Student Performance Analyzer & Score Predictor")
 st.write(
     "Built with **Python, Pandas and NumPy**. The prediction model is a linear regression "
     "written from scratch with NumPy (no scikit-learn). "
-    "The dataset is synthetic, generated for this project."
+    "The dataset is synthetic."
 )
 
 # ---------- Sidebar: inputs ----------
