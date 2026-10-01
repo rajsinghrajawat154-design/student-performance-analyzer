@@ -1,0 +1,50 @@
+=== DATA CLEANING ===
+rows_before: 305
+duplicates_removed: 5
+missing_values_filled: 22
+rows_after: 300
+
+=== DATASET SUMMARY ===
+       study_hours  attendance  prev_score  sleep_hours  final_score
+count       300.00      300.00      300.00       300.00       300.00
+mean          4.15       75.71       59.23         6.55        59.73
+std           2.18       13.91       12.40         1.45        11.25
+min           0.60       50.30       27.90         4.00        25.80
+25%           2.20       64.55       50.25         5.30        52.50
+50%           4.10       76.20       59.85         6.50        59.20
+75%           6.12       87.42       67.43         7.80        68.80
+max           7.90      100.00       98.10         9.00        84.30
+
+=== CORRELATION WITH FINAL SCORE ===
+study_hours    0.825
+prev_score     0.337
+attendance     0.216
+sleep_hours    0.109
+
+=== AVERAGE SCORE BY ATTENDANCE BAND ===
+                 count   mean
+attendance_band              
+<60%                57  55.16
+60-75%              79  60.22
+75-90%             109  60.15
+90-100%             55  62.91
+
+=== GRADE DISTRIBUTION ===
+grade
+F      12
+C      91
+B     133
+A      64
+A+      0
+
+Pass rate: 96.0%
+
+=== MODEL (train=240, test=60) ===
+study_hours: +4.302 marks per unit
+attendance: +0.170 marks per unit
+prev_score: +0.341 marks per unit
+sleep_hours: +1.000 marks per unit
+intercept: 2.311
+MAE: 3.599
+RMSE: 4.480
+R2: 0.835
