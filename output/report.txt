@@ -16,18 +16,18 @@ min           0.60       50.30       27.90         4.00        25.80
 max           7.90      100.00       98.10         9.00        84.30
 
 === CORRELATION WITH FINAL SCORE ===
-study_hours    0.825
-prev_score     0.337
-attendance     0.216
-sleep_hours    0.109
+study_hours    0.826
+prev_score     0.338
+attendance     0.217
+sleep_hours    0.108
 
 === AVERAGE SCORE BY ATTENDANCE BAND ===
                  count   mean
 attendance_band              
-<60%                57  55.16
-60-75%              79  60.22
-75-90%             109  60.15
-90-100%             55  62.91
+<60%                57  55.18
+60-75%              79  60.24
+75-90%             109  60.16
+90-100%             55  62.90
 
 === GRADE DISTRIBUTION ===
 grade
@@ -35,7 +35,7 @@ F      12
 C      91
 B     133
 A      64
-A+      0
+A+      2
 
 Pass rate: 96.0%
 
