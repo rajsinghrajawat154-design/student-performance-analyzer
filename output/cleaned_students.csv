@@ -299,3 +299,4 @@ student_id,study_hours,attendance,prev_score,sleep_hours,final_score,attendance_
 1298,6.5,81.7,37.3,6.5,63.6,75-90%,B,Pass
 1299,6.3,99.1,36.5,6.4,68.7,90-100%,B,Pass
 1300,5.3,81.0,59.9,5.3,64.6,75-90%,B,Pass
+1301,1.2,50.1,40.0,5.0,35.0,<65%,F,Fail
